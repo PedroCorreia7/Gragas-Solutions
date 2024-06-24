@@ -36,6 +36,7 @@ namespace Gragas_Solution_2
 
 
 
+
         // ASSIM QUE O PROGRAMA É EXECUTADO , ESSE MÉTODO JÁ PUXA O "LoadItens" FAZENDO COM QUE OS ITENS SEJAM EXIBIDOS NA TELA
         private void telaPrincipal_Load(object sender, EventArgs e)
         {
@@ -165,8 +166,9 @@ namespace Gragas_Solution_2
 
 
 
+
         // MÉTODO QUE ACESSA A TELA DE ADICIONAR ITENS
-        private void button2_Click(object sender, EventArgs e)
+        private void botaoAdicionar_Click(object sender, EventArgs e)
         {
             // Exibe a Tela Adicionar
             telaAdicionar mostrarTela = new telaAdicionar();

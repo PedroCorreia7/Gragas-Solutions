@@ -95,6 +95,11 @@ namespace Gragas_Solution_2
                             }
                         }
 
+
+
+
+
+
                         // Verificar se a tabela "itens" existe e criá-la se não existir
                         string checkItemsTableQuery = $"SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = '{databaseName}' AND TABLE_NAME = 'itens'";
                         using (var cmdCheckItemsTable = new MySqlCommand(checkItemsTableQuery, dbConnection))

@@ -85,7 +85,7 @@
             this.botaoAdicionar.TabIndex = 2;
             this.botaoAdicionar.Text = "Adicionar";
             this.botaoAdicionar.UseVisualStyleBackColor = true;
-            this.botaoAdicionar.Click += new System.EventHandler(this.button2_Click);
+            this.botaoAdicionar.Click += new System.EventHandler(this.botaoAdicionar_Click);
             // 
             // tabelaItens
             // 
